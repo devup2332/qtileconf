@@ -60,7 +60,7 @@ keys = [
     Key([mod], "r", lazy.spawncmd(),
         desc="Spawn a command using a prompt widget"),
 ]
-groups = [Group(i) for i in [" ", " ", " ", " ", " ", " ", " ", ' ']]
+groups = [Group(i) for i in [" ", " ", " ", " ", " ", ]]
 
 for i, group in enumerate(groups):
     # Each workspace is identified by a number starting at 1
