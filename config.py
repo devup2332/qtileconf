@@ -106,7 +106,7 @@ screens = [
                 widget.TextBox(
                     text=' ',
                     fontsize=25,
-                    foreground=colors[2],
+                    foreground=colors[1],
                     background=colors[0]
                 ),
                 widget.GroupBox(
@@ -115,14 +115,14 @@ screens = [
                     margin_x=20,
                     padding_x=5,
                     borderwidth=3,
-                    active=colors[1],
-                    inactive=colors[1],
+                    active=colors[4],
+                    inactive=colors[4],
                     rounded=False,
                     highlight_method="line",
                     this_current_screen_border=colors[2],
-                    this_screen_border=colors[0],
-                    other_current_screen_border=colors[0],
-                    other_screen_border=colors[0],
+                    this_screen_border=colors[3],
+                    other_current_screen_border=colors[3],
+                    other_screen_border=colors[3],
                     foreground=colors[1],
                     background=colors[0]
                 ),
@@ -133,7 +133,7 @@ screens = [
 
                 widget.TextBox(
                     text='',
-                    foreground=colors[3],
+                    foreground=colors[4],
                     background=colors[0],
                     padding=10,
                     fontsize=25
@@ -146,7 +146,7 @@ screens = [
                 ),
                 widget.TextBox(
                     text='',
-                    foreground=colors[3],
+                    foreground=colors[4],
                     background=colors[0],
                     padding=10,
                     fontsize=25
@@ -167,7 +167,7 @@ screens = [
 
                 widget.TextBox(
                     text='',
-                    foreground=colors[3],
+                    foreground=colors[4],
                     background=colors[0],
                     padding=10,
                     fontsize=25,
