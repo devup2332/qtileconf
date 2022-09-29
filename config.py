@@ -60,7 +60,8 @@ keys = [
     Key([mod], "r", lazy.spawncmd(),
         desc="Spawn a command using a prompt widget"),
 ]
-groups = [Group(i) for i in [" ", " ", " ", " ", " ", ]]
+groups = [Group(i)
+          for i in [" ", " ", " ", " ", " ", " ", " "]]
 
 for i, group in enumerate(groups):
     # Each workspace is identified by a number starting at 1
@@ -103,8 +104,8 @@ screens = [
         top=bar.Bar(
             [
                 widget.TextBox(
-                    text=' ',
-                    fontsize=17,
+                    text=' ',
+                    fontsize=25,
                     foreground=colors[2],
                     background=colors[0]
                 ),
@@ -131,8 +132,8 @@ screens = [
                 ),
 
                 widget.TextBox(
-                    text='',
-                    foreground=colors[1],
+                    text='',
+                    foreground=colors[3],
                     background=colors[0],
                     padding=10,
                     fontsize=25
@@ -144,8 +145,8 @@ screens = [
                     margin=0
                 ),
                 widget.TextBox(
-                    text='',
-                    foreground=colors[1],
+                    text='',
+                    foreground=colors[3],
                     background=colors[0],
                     padding=10,
                     fontsize=25
@@ -165,8 +166,8 @@ screens = [
                 ),
 
                 widget.TextBox(
-                    text='',
-                    foreground=colors[1],
+                    text='',
+                    foreground=colors[3],
                     background=colors[0],
                     padding=10,
                     fontsize=25,
@@ -180,8 +181,8 @@ screens = [
                 ),
 
             ],
-            25,
-            opacity=1
+            30,
+            opacity=0.9
         ),
     ),
 ]
