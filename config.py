@@ -7,7 +7,7 @@ from libqtile.lazy import lazy
 
 
 mod = "mod4"
-terminal = "tilix"
+terminal = "alacritty"
 
 keys = [
     # Switch between windows
@@ -76,9 +76,9 @@ for i, group in enumerate(groups):
 colors = [
     ["#000000", "#000000"],
     ["#ffffff", "#ffffff"],
-    ["#d60000", "#d60000"],
+    ["#ffffff", "#ffffff"],
     ["#ffc812", "#ffc812"],
-    ["#ff9166", '#ff9166'],
+    ["#6f00b0", '#6f00b0'],
     ["#ff3d3d", "#ff3d3d"],
 ]
 
