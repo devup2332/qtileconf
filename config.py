@@ -82,7 +82,7 @@ colors = [
 ]
 
 layouts = [
-    layout.Columns(border_width=1, margin=20, border_focus=colors[1][0]),
+    layout.Columns(border_width=3, margin=20, border_focus=colors[1][0]),
     layout.Max(),
     # Try more layouts by unleashing below layouts.
     # layout.Stack(num_stacks=2),
